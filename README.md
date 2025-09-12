@@ -111,3 +111,19 @@ Convert raw inputs into dense vectors that capture semantic meaning → used for
 **Platforms:** Kubernetes, Docker, Ray, Airflow  
 **Enterprise Concerns:** auth, security, compliance (GDPR, HIPAA), caching (Redis, Vespa), cost optimization
 
+
+## 🆓 Free LLM / AI APIs (Groq-like)
+
+| Provider | What you get free | How to sign up |
+|----------|------------------|---------------|
+| **[Groq Cloud](https://console.groq.com)** | Free tier with **LLaMA-3**, **Mixtral**, **Gemma** models at very high speed (100s tokens/sec). No credit card required. | Go to [console.groq.com](https://console.groq.com) → “Create API Key”. |
+| **[Together AI](https://api.together.xyz)** | Free credits for open-weight models (LLaMA-3, Mistral, Mixtral, etc.) – ~100k tokens/day free for development. | Sign up at [api.together.xyz](https://api.together.xyz). |
+| **[Replicate](https://replicate.com)** | Many community models (LLMs, vision, audio). Gives free “Starter” credits monthly. | Sign in with GitHub at [replicate.com](https://replicate.com). |
+| **[Hugging Face Inference Endpoints](https://api-inference.huggingface.co)** | Free “Hosted Inference API” for most open models (limited rate). Example: `https://api-inference.huggingface.co/models/...` | Get an access token at [huggingface.co](https://huggingface.co) → Settings → Access Tokens. |
+| **[OpenRouter](https://openrouter.ai)** | Free trial tokens across multiple providers/models (some open models are always free). | Sign up at [openrouter.ai](https://openrouter.ai). |
+| **[Cohere](https://cohere.com)** | Free tier for text generation, classification, embeddings (with limits). | Sign up at [cohere.com](https://cohere.com) and get your API key. |
+| **Anthropic Claude (via [Poe](https://poe.com) or Slack integrations)** | No public API free plan, but free usage of certain Claude models through Poe.com. API itself is paid. | — |
+| **[Vercel AI SDK / Open-Source Models](https://vercel.com/docs/ai)** | Deploy open-weight models to Vercel Edge Functions; free tier covers some requests. | See [vercel.com/docs/ai](https://vercel.com/docs/ai). |
+| **[DeepInfra](https://deepinfra.com)** | Pay-as-you-go but always gives a small free quota to new accounts; hosts open models. | Sign up at [deepinfra.com](https://deepinfra.com). |
+
+
