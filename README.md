@@ -127,7 +127,7 @@ Convert raw inputs into dense vectors that capture semantic meaning → used for
 | **[Cohere](https://cohere.com)** | Free tier for text generation, classification, embeddings (with limits). | Sign up at [cohere.com](https://cohere.com) and get your API key. |
 
 
-# --- Imports ---
+# --- Imports CORRECTIVE rag---
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
