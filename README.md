@@ -127,9 +127,6 @@ Convert raw inputs into dense vectors that capture semantic meaning → used for
 | **[Cohere](https://cohere.com)** | Free tier for text generation, classification, embeddings (with limits). | Sign up at [cohere.com](https://cohere.com) and get your API key. |
 
 
-corrective rag
-
-
 # --- Imports ---
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -216,9 +213,3 @@ inputs = {"question": "tell me about the Taj Mahal"}
 for output in app.stream(inputs):
     print(output)
 print("Final Answer:", output["generate"]["generation"])
-
-| **Anthropic Claude (via [Poe](https://poe.com) or Slack integrations)** | No public API free plan, but free usage of certain Claude models through Poe.com. API itself is paid. | — |
-| **[Vercel AI SDK / Open-Source Models](https://vercel.com/docs/ai)** | Deploy open-weight models to Vercel Edge Functions; free tier covers some requests. | See [vercel.com/docs/ai](https://vercel.com/docs/ai). |
-| **[DeepInfra](https://deepinfra.com)** | Pay-as-you-go but always gives a small free quota to new accounts; hosts open models. | Sign up at [deepinfra.com](https://deepinfra.com). |
-
-
